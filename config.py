@@ -10,3 +10,6 @@ COLLECTION = "food_guide"
 EMBED_MODEL = "BAAI/bge-small-zh-v1.5"
 
 VISION_MODEL = "anthropic:claude-sonnet-5-5"
+
+# ===== Open Food Facts =====
+OFF_USER_AGENT = "NutritionAssistant/0.1 (anthonylin901@gmail.com)"
