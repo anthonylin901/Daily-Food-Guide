@@ -1,0 +1,19 @@
+# ===== LangChain =====
+langchain>=1.0              # create_agent、@tool、init_chat_model
+langchain-community         # TextLoader
+langchain-text-splitters    # MarkdownHeaderTextSplitter
+langchain-huggingface       # HuggingFaceEmbeddings
+langchain-chroma            # Chroma 向量資料庫
+langchain-anthropic         # Claude
+langchain-google-genai      # Gemini
+
+# ===== Embedding =====
+sentence-transformers       # HuggingFaceEmbeddings 底層使用
+
+# ===== PDF 前處理 =====
+pymupdf                     # PDF 轉圖片
+
+# ===== 其他 =====
+requests                    # 呼叫 Open Food Facts API
+python-dotenv               # 讀取 .env
+streamlit                   # 網頁介面
